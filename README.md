@@ -45,8 +45,8 @@ The user should be able to delete any existing todo item.
 
 ### date-fns
 
-The formatting and manipulating of dates and times could be done by using the [date-fns](https://github.com/date-fns/date-fns) library.
+The formatting and manipulation of dates and times could be done by using the [date-fns](https://github.com/date-fns/date-fns) library.
 
 ### Local storage
 
-As a basic way of making things somewhat persistent, the app will use localStorage. This will allow the todos to be saved, althought only in the browser and device that was used to create them.
+As a basic way of making things somewhat persistent, the app will use localStorage. This will allow the todos to be saved, although only in the browser and device that was used to create them.
