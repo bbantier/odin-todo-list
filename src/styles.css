@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #eff3f4;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
