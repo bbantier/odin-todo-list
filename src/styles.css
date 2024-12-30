@@ -1,4 +1,8 @@
-*, *::before, *::after {
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,8 +10,28 @@
 
 :root {
   --main-bg-color: #eff3f4;
+  --header-margin: 8px;
+  --header-bg-bolor: white;
 }
 
 body {
   background-color: var(--main-bg-color);
+}
+
+#page-header {
+  margin: var(--header-margin);
+  padding: 8px;
+  background-color: var(--header-bg-bolor);
+  width: calc(100% - var(--header-margin) * 2);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#app-name {
+  font-family: 'Jaldi', sans-serif;
+  font-size: 1.3rem;
 }

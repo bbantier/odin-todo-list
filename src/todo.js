@@ -1,4 +1,4 @@
-class Todo {
+class TodoItem {
   constructor(title, description, dueDate, priority, notes, checklist) {
     this.title = title;
     this.description = description;
@@ -16,3 +16,7 @@ class Todo {
 
   }
 }
+
+const createTodoItem = () => {
+
+};
